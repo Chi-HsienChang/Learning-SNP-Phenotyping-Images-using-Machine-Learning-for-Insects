@@ -1,0 +1,24 @@
+folder_path:
+  input: './images/wing'
+  output: './output'  
+
+output_format: jpg
+
+matting: 
+  enable: false
+
+black_and_white:
+  enable: true
+  blur: 7
+  lower_bound_threshold: 0
+  upper_bound_threshold: 100
+
+rotation:
+  enable: false
+  angle: 45
+
+diameter: 
+  enable: false
+  maximum_diameter: 2000
+
+
